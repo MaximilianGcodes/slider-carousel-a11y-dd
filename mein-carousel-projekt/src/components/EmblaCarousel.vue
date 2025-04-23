@@ -88,7 +88,7 @@ onMounted(() => {
           'w-3 h-3 rounded-full transition-all',
           selectedIndex === index ? 'bg-blue-600' : 'bg-gray-300 hover:bg-gray-500'
         ]"
-          aria-label="Zu Slide {{ index + 1 }}"
+          :aria-label="`Slide ${index + 1} von ${slides.length}`"
       />
     </div>
   </section>
