@@ -99,7 +99,7 @@ onMounted(() => {
           <div class="bg-white shadow p-6 rounded text-center">
             <img
                 :src="slide.image"
-                alt="slide.alt"
+                :alt="slide.alt"
                 class="rounded mx-auto mb-4"
             >
             <p class="text-lg text-gray-800 mb-2">{{ slide.text }}</p>
