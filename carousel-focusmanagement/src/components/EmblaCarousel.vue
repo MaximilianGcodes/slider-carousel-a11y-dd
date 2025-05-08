@@ -48,7 +48,7 @@ onMounted(() => {
 
 <template>
   <section
-      class="relative max-w-3xl mx-auto"
+      class="relative max-w-4xl mx-auto"
       role="region"
       aria-label="Bilderkarussell mit 3 Slides"
   >
@@ -86,7 +86,7 @@ onMounted(() => {
     <!-- Viewport -->
     <div class="overflow-hidden rounded-lg" ref="viewport">
 
-      <div class="flex" ref="container">
+      <div class="flex touch-pan-y will-change-transform" ref="container">
 
         <div
             v-for="(slide, index) in slides"
